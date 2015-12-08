@@ -1,0 +1,32 @@
+{
+  "name": "svs-mock-servers",
+  "version": "0.0.0",
+  "description": "Mock SVS servers for development.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/svs-mock-servers",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tableflip/svs-mock-servers.git"
+  },
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tableflip/svs-mock-servers/issues"
+  },
+  "homepage": "https://github.com/tableflip/svs-mock-servers",
+  "bin": {
+    "svs-mock-servers": "bin/svs-mock-servers.js"
+  },
+  "dependencies": {
+    "async-each": "^0.1.6",
+    "concat-stream": "^1.4.7",
+    "faker": "^2.1.2",
+    "minimist": "^1.1.0",
+    "svs-crm": "git+ssh://git@github.com:tableflip/svs-crm.git#v1.1.2",
+    "svs-mba": "git+ssh://git@github.com:tableflip/svs-mba.git#v1.0.4",
+    "uuid": "^2.0.1"
+  }
+}
