@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tableflip/svs-mock-servers.git"
+    "url": "https://github.com/vinothklix/svs-mock-servers.git"
   },
   "author": "Alan Shaw",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tableflip/svs-mock-servers/issues"
+    "url": "https://github.com/vinothklix/svs-mock-servers/issues"
   },
-  "homepage": "https://github.com/tableflip/svs-mock-servers",
+  "homepage": "https://github.com/vinothklix/svs-mock-servers",
   "bin": {
     "svs-mock-servers": "bin/svs-mock-servers.js"
   },
@@ -25,8 +25,8 @@
     "concat-stream": "^1.4.7",
     "faker": "^2.1.2",
     "minimist": "^1.1.0",
-    "svs-crm": "git+ssh://git@github.com:tableflip/svs-crm.git#v1.1.2",
-    "svs-mba": "git+ssh://git@github.com:tableflip/svs-mba.git#v1.0.4",
+    "svs-crm": "git+ssh://git@github.com:vinothklix/svs-crm.git#576ecc2881d2e5f1c4f587aae2cf58e075fef925",
+    "svs-mba": "git+ssh://git@github.com:vinothklix/svs-mba.git#70758b6c6a4c8b59e9f92bceffa63d4b2e6b0bf2",
     "uuid": "^2.0.1"
   }
 }
